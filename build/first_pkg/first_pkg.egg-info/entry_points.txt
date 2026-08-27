@@ -1,0 +1,3 @@
+[console_scripts]
+publisher_node = first_pkg.publisher_node:main
+simple_node = first_pkg.simple_node:main

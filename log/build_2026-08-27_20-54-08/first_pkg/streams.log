@@ -1,0 +1,30 @@
+[1.266s] Invoking command in '/home/shreyas/ros2_projects/ros2_project/src/first_pkg': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/shreyas/ros2_projects/ros2_project/build/first_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/shreyas/ros2_projects/ros2_project/install/first_pkg/lib/python3.14/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/first_pkg build --build-base /home/shreyas/ros2_projects/ros2_project/build/first_pkg/build install --record /home/shreyas/ros2_projects/ros2_project/build/first_pkg/install.log --install-scripts $base/lib/first_pkg --single-version-externally-managed install_data
+[1.718s] running egg_info
+[1.751s] writing ../../build/first_pkg/first_pkg.egg-info/PKG-INFO
+[1.752s] writing dependency_links to ../../build/first_pkg/first_pkg.egg-info/dependency_links.txt
+[1.753s] writing entry points to ../../build/first_pkg/first_pkg.egg-info/entry_points.txt
+[1.753s] writing requirements to ../../build/first_pkg/first_pkg.egg-info/requires.txt
+[1.753s] writing top-level names to ../../build/first_pkg/first_pkg.egg-info/top_level.txt
+[1.829s] reading manifest file '../../build/first_pkg/first_pkg.egg-info/SOURCES.txt'
+[1.829s] adding license file 'LICENSE'
+[1.830s] writing manifest file '../../build/first_pkg/first_pkg.egg-info/SOURCES.txt'
+[1.831s] running build
+[1.831s] running build_py
+[1.831s] copying first_pkg/simple_node.py -> /home/shreyas/ros2_projects/ros2_project/build/first_pkg/build/lib/first_pkg
+[1.832s] copying first_pkg/publisher_node.py -> /home/shreyas/ros2_projects/ros2_project/build/first_pkg/build/lib/first_pkg
+[1.832s] copying first_pkg/__init__.py -> /home/shreyas/ros2_projects/ros2_project/build/first_pkg/build/lib/first_pkg
+[1.832s] copying first_pkg/py.typed -> /home/shreyas/ros2_projects/ros2_project/build/first_pkg/build/lib/first_pkg
+[1.832s] running install
+[1.838s] running install_lib
+[1.876s] copying /home/shreyas/ros2_projects/ros2_project/build/first_pkg/build/lib/first_pkg/publisher_node.py -> /home/shreyas/ros2_projects/ros2_project/install/first_pkg/lib/python3.14/site-packages/first_pkg
+[1.878s] byte-compiling /home/shreyas/ros2_projects/ros2_project/install/first_pkg/lib/python3.14/site-packages/first_pkg/publisher_node.py to publisher_node.cpython-314.pyc
+[1.878s] running install_data
+[1.879s] copying resource/first_pkg -> /home/shreyas/ros2_projects/ros2_project/install/first_pkg/share/ament_index/resource_index/packages
+[1.879s] copying package.xml -> /home/shreyas/ros2_projects/ros2_project/install/first_pkg/share/first_pkg
+[1.880s] running install_egg_info
+[1.930s] removing '/home/shreyas/ros2_projects/ros2_project/install/first_pkg/lib/python3.14/site-packages/first_pkg-0.0.0-py3.14.egg-info' (and everything under it)
+[1.930s] Copying ../../build/first_pkg/first_pkg.egg-info to /home/shreyas/ros2_projects/ros2_project/install/first_pkg/lib/python3.14/site-packages/first_pkg-0.0.0-py3.14.egg-info
+[1.935s] running install_scripts
+[2.116s] Installing simple_node script to /home/shreyas/ros2_projects/ros2_project/install/first_pkg/lib/first_pkg
+[2.123s] writing list of installed files to '/home/shreyas/ros2_projects/ros2_project/build/first_pkg/install.log'
+[2.200s] Invoked command in '/home/shreyas/ros2_projects/ros2_project/src/first_pkg' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/shreyas/ros2_projects/ros2_project/build/first_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/shreyas/ros2_projects/ros2_project/install/first_pkg/lib/python3.14/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/first_pkg build --build-base /home/shreyas/ros2_projects/ros2_project/build/first_pkg/build install --record /home/shreyas/ros2_projects/ros2_project/build/first_pkg/install.log --install-scripts $base/lib/first_pkg --single-version-externally-managed install_data
