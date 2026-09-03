@@ -26,7 +26,10 @@ setup(
     entry_points={
         'console_scripts': [
             'simple_node= first_pkg.simple_node:main' ,
-            'publisher_node= first_pkg.publisher_node:main'
+            'publisher_node= first_pkg.publisher_node:main',
+            'subscriber_node=first_pkg.subscriber_node:main',
+            'add_two_ints_server=first_pkg.add_two_ints_server:main',
+            'add_two_ints_client=first_pkg.add_two_ints_client:main'
         ],
     },
 )
