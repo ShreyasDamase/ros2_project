@@ -1,0 +1,159 @@
+[0.000000] (-) TimerEvent: {}
+[0.000837] (boki_pkg) JobQueued: {'identifier': 'boki_pkg', 'dependencies': OrderedDict()}
+[0.000981] (srv_pkg) JobQueued: {'identifier': 'srv_pkg', 'dependencies': OrderedDict()}
+[0.002583] (boki_pkg) JobStarted: {'identifier': 'boki_pkg'}
+[0.025035] (srv_pkg) JobStarted: {'identifier': 'srv_pkg'}
+[0.100351] (-) TimerEvent: {}
+[0.200937] (-) TimerEvent: {}
+[0.301377] (-) TimerEvent: {}
+[0.401801] (-) TimerEvent: {}
+[0.502287] (-) TimerEvent: {}
+[0.512764] (srv_pkg) JobProgress: {'identifier': 'srv_pkg', 'progress': 'cmake'}
+[0.513774] (srv_pkg) Command: {'cmd': ['/usr/bin/cmake', '/home/shreyas/ros2_projects/ros2_ws/src/srv_pkg', '-DCMAKE_INSTALL_PREFIX=/home/shreyas/ros2_projects/ros2_ws/install/srv_pkg'], 'cwd': '/home/shreyas/ros2_projects/ros2_ws/build/srv_pkg', 'env': OrderedDict({'TERM_SESSION_ID': 'c501d289-5b3d-466f-a3ba-9969712bfaff', 'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'XDG_ACTIVATION_TOKEN': 'gnome-shell/CLion 2026.2.1/8457-0-shreyas-VivoBook-ASUSLaptop-X570ZD-F570ZD_TIME514430', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'shreyas', 'GZ_CONFIG_PATH': '/opt/ros/lyrical/opt/gz_sim_vendor/share/gz:/opt/ros/lyrical/opt/gz_gui_vendor/share/gz:/opt/ros/lyrical/opt/gz_transport_vendor/share/gz:/opt/ros/lyrical/opt/sdformat_vendor/share/gz:/opt/ros/lyrical/opt/gz_rendering_vendor/share/gz:/opt/ros/lyrical/opt/gz_plugin_vendor/share/gz:/opt/ros/lyrical/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/lyrical/opt/gz_msgs_vendor/share/gz:/opt/ros/lyrical/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/lyrical/opt/gz_sim_vendor/lib:/opt/ros/lyrical/opt/gz_sensors_vendor/lib:/opt/ros/lyrical/opt/gz_gui_vendor/lib:/opt/ros/lyrical/opt/gz_transport_vendor/lib:/opt/ros/lyrical/opt/zenoh_cpp_vendor/lib:/opt/ros/lyrical/opt/gz_physics_vendor/lib:/opt/ros/lyrical/opt/sdformat_vendor/lib:/opt/ros/lyrical/opt/gz_rendering_vendor/lib:/opt/ros/lyrical/opt/gz_plugin_vendor/lib:/opt/ros/lyrical/opt/gz_fuel_tools_vendor/lib:/opt/ros/lyrical/opt/gz_msgs_vendor/lib:/opt/ros/lyrical/opt/gz_common_vendor/lib:/opt/ros/lyrical/opt/gz_math_vendor/lib:/opt/ros/lyrical/opt/gz_utils_vendor/lib:/opt/ros/lyrical/opt/rviz_ogre_vendor/lib:/opt/ros/lyrical/lib/x86_64-linux-gnu:/opt/ros/lyrical/opt/gz_tools_vendor/lib:/opt/ros/lyrical/opt/gz_ogre_next_vendor/lib:/opt/ros/lyrical/opt/gz_dartsim_vendor/lib:/opt/ros/lyrical/opt/gz_cmake_vendor/lib:/opt/ros/lyrical/lib', 'HOME': '/home/shreyas', 'DESKTOP_SESSION': 'ubuntu', 'TERMINAL_EMULATOR': 'JetBrains-JediTerm', 'IM_CONFIG_ENTRY': 'profile', 'GIO_LAUNCHED_DESKTOP_FILE': '/home/shreyas/.local/share/applications/jetbrains-clion-b973f9df-da0c-4505-ad5d-59cc37a65c14.desktop', 'ROS_PYTHON_VERSION': '3', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '7964', 'SYSTEMD_EXEC_PID': '8457', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '11263', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'lyrical', 'LOGNAME': 'shreyas', 'MANAGERPIDFDID': '1131', 'JOURNAL_STREAM': '10:35230', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@ubuntu.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'shreyas', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'DOTNET_ROOT': '/home/shreyas/.dotnet', 'PATH': '/home/shreyas/.dotnet:/opt/ros/lyrical/opt/gz_msgs_vendor/bin:/opt/ros/lyrical/opt/gz_tools_vendor/bin:/opt/ros/lyrical/opt/gz_ogre_next_vendor/bin:/opt/ros/lyrical/bin:/home/shreyas/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/shreyas/.local/bin:/home/shreyas/.local/share/JetBrains/Toolbox/scripts:/home/shreyas/.local/bin:/home/shreyas/.local/bin', 'INVOCATION_ID': 'c6db63fd062840498c2d4ce86155398c', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': 'unix:/tmp/.X11-unix/X1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'DESKTOP_STARTUP_ID': 'gnome-shell/CLion 2026.2.1/8457-0-shreyas-VivoBook-ASUSLaptop-X570ZD-F570ZD_TIME514430', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.D0DDV3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.swp=00;90:*.tmp=00;90:*.dpkg-dist=00;90:*.dpkg-old=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:', 'FIG_TERM': '1', 'SSH_AUTH_SOCK': '/run/user/1000/gcr/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/lyrical', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/shreyas/ros2_projects/ros2_ws/build/srv_pkg', 'PROCESS_LAUNCHED_BY_CW': '1', 'INTELLIJ_TERMINAL_COMMAND_BLOCKS_REWORKED': '1', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/home/shreyas/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'XDG_SESSION_EXTRA_DEVICE_ACCESS': 'render:accel', 'PYTHONPATH': '/opt/ros/lyrical/opt/gz_sim_vendor/lib/python:/opt/ros/lyrical/opt/gz_transport_vendor/lib/python:/opt/ros/lyrical/opt/sdformat_vendor/lib/python:/opt/ros/lyrical/opt/gz_msgs_vendor/lib/python:/opt/ros/lyrical/opt/gz_math_vendor/lib/python:/opt/ros/lyrical/lib/python3.14/site-packages', 'COLCON': '1', 'QT_IM_MODULES': 'wayland;ibus', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'PROCESS_LAUNCHED_BY_Q': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/lyrical/opt/gz_sim_vendor:/opt/ros/lyrical/opt/gz_sensors_vendor:/opt/ros/lyrical/opt/gz_gui_vendor:/opt/ros/lyrical/opt/gz_transport_vendor:/opt/ros/lyrical/opt/gz_physics_vendor:/opt/ros/lyrical/opt/sdformat_vendor:/opt/ros/lyrical/opt/gz_rendering_vendor:/opt/ros/lyrical/opt/gz_plugin_vendor:/opt/ros/lyrical/opt/gz_fuel_tools_vendor:/opt/ros/lyrical/opt/gz_msgs_vendor:/opt/ros/lyrical/opt/gz_common_vendor:/opt/ros/lyrical/opt/gz_math_vendor:/opt/ros/lyrical/opt/gz_utils_vendor:/opt/ros/lyrical/opt/gz_tools_vendor:/opt/ros/lyrical/opt/gz_ogre_next_vendor:/opt/ros/lyrical/opt/gz_dartsim_vendor:/opt/ros/lyrical/opt/gz_cmake_vendor:/opt/ros/lyrical'}), 'shell': False}
+[0.603114] (-) TimerEvent: {}
+[0.703666] (-) TimerEvent: {}
+[0.804281] (-) TimerEvent: {}
+[0.904808] (-) TimerEvent: {}
+[0.990311] (srv_pkg) StdoutLine: {'line': b'-- The C compiler identification is GNU 15.2.0\n'}
+[1.004960] (-) TimerEvent: {}
+[1.105379] (-) TimerEvent: {}
+[1.205770] (-) TimerEvent: {}
+[1.306174] (-) TimerEvent: {}
+[1.407207] (-) TimerEvent: {}
+[1.497873] (boki_pkg) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/boki_pkg', 'build', '--build-base', '/home/shreyas/ros2_projects/ros2_ws/build/boki_pkg/build', 'install', '--record', '/home/shreyas/ros2_projects/ros2_ws/build/boki_pkg/install.log', '--install-scripts', '$base/lib/boki_pkg', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/shreyas/ros2_projects/ros2_ws/src/boki_pkg', 'env': OrderedDict({'TERM_SESSION_ID': 'c501d289-5b3d-466f-a3ba-9969712bfaff', 'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'XDG_ACTIVATION_TOKEN': 'gnome-shell/CLion 2026.2.1/8457-0-shreyas-VivoBook-ASUSLaptop-X570ZD-F570ZD_TIME514430', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'shreyas', 'GZ_CONFIG_PATH': '/opt/ros/lyrical/opt/gz_sim_vendor/share/gz:/opt/ros/lyrical/opt/gz_gui_vendor/share/gz:/opt/ros/lyrical/opt/gz_transport_vendor/share/gz:/opt/ros/lyrical/opt/sdformat_vendor/share/gz:/opt/ros/lyrical/opt/gz_rendering_vendor/share/gz:/opt/ros/lyrical/opt/gz_plugin_vendor/share/gz:/opt/ros/lyrical/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/lyrical/opt/gz_msgs_vendor/share/gz:/opt/ros/lyrical/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/lyrical/opt/gz_sim_vendor/lib:/opt/ros/lyrical/opt/gz_sensors_vendor/lib:/opt/ros/lyrical/opt/gz_gui_vendor/lib:/opt/ros/lyrical/opt/gz_transport_vendor/lib:/opt/ros/lyrical/opt/zenoh_cpp_vendor/lib:/opt/ros/lyrical/opt/gz_physics_vendor/lib:/opt/ros/lyrical/opt/sdformat_vendor/lib:/opt/ros/lyrical/opt/gz_rendering_vendor/lib:/opt/ros/lyrical/opt/gz_plugin_vendor/lib:/opt/ros/lyrical/opt/gz_fuel_tools_vendor/lib:/opt/ros/lyrical/opt/gz_msgs_vendor/lib:/opt/ros/lyrical/opt/gz_common_vendor/lib:/opt/ros/lyrical/opt/gz_math_vendor/lib:/opt/ros/lyrical/opt/gz_utils_vendor/lib:/opt/ros/lyrical/opt/rviz_ogre_vendor/lib:/opt/ros/lyrical/lib/x86_64-linux-gnu:/opt/ros/lyrical/opt/gz_tools_vendor/lib:/opt/ros/lyrical/opt/gz_ogre_next_vendor/lib:/opt/ros/lyrical/opt/gz_dartsim_vendor/lib:/opt/ros/lyrical/opt/gz_cmake_vendor/lib:/opt/ros/lyrical/lib', 'HOME': '/home/shreyas', 'DESKTOP_SESSION': 'ubuntu', 'TERMINAL_EMULATOR': 'JetBrains-JediTerm', 'IM_CONFIG_ENTRY': 'profile', 'GIO_LAUNCHED_DESKTOP_FILE': '/home/shreyas/.local/share/applications/jetbrains-clion-b973f9df-da0c-4505-ad5d-59cc37a65c14.desktop', 'ROS_PYTHON_VERSION': '3', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '7964', 'SYSTEMD_EXEC_PID': '8457', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '11263', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'lyrical', 'LOGNAME': 'shreyas', 'MANAGERPIDFDID': '1131', 'JOURNAL_STREAM': '10:35230', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@ubuntu.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'shreyas', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'DOTNET_ROOT': '/home/shreyas/.dotnet', 'PATH': '/home/shreyas/.dotnet:/opt/ros/lyrical/opt/gz_msgs_vendor/bin:/opt/ros/lyrical/opt/gz_tools_vendor/bin:/opt/ros/lyrical/opt/gz_ogre_next_vendor/bin:/opt/ros/lyrical/bin:/home/shreyas/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/shreyas/.local/bin:/home/shreyas/.local/share/JetBrains/Toolbox/scripts:/home/shreyas/.local/bin:/home/shreyas/.local/bin', 'INVOCATION_ID': 'c6db63fd062840498c2d4ce86155398c', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': 'unix:/tmp/.X11-unix/X1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'DESKTOP_STARTUP_ID': 'gnome-shell/CLion 2026.2.1/8457-0-shreyas-VivoBook-ASUSLaptop-X570ZD-F570ZD_TIME514430', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.D0DDV3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.swp=00;90:*.tmp=00;90:*.dpkg-dist=00;90:*.dpkg-old=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:', 'FIG_TERM': '1', 'SSH_AUTH_SOCK': '/run/user/1000/gcr/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/lyrical', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/shreyas/ros2_projects/ros2_ws/build/boki_pkg', 'PROCESS_LAUNCHED_BY_CW': '1', 'INTELLIJ_TERMINAL_COMMAND_BLOCKS_REWORKED': '1', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/home/shreyas/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'XDG_SESSION_EXTRA_DEVICE_ACCESS': 'render:accel', 'PYTHONPATH': '/home/shreyas/ros2_projects/ros2_ws/build/boki_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/shreyas/ros2_projects/ros2_ws/install/boki_pkg/lib/python3.14/site-packages:/opt/ros/lyrical/opt/gz_sim_vendor/lib/python:/opt/ros/lyrical/opt/gz_transport_vendor/lib/python:/opt/ros/lyrical/opt/sdformat_vendor/lib/python:/opt/ros/lyrical/opt/gz_msgs_vendor/lib/python:/opt/ros/lyrical/opt/gz_math_vendor/lib/python:/opt/ros/lyrical/lib/python3.14/site-packages', 'COLCON': '1', 'QT_IM_MODULES': 'wayland;ibus', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'PROCESS_LAUNCHED_BY_Q': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/lyrical/opt/gz_sim_vendor:/opt/ros/lyrical/opt/gz_sensors_vendor:/opt/ros/lyrical/opt/gz_gui_vendor:/opt/ros/lyrical/opt/gz_transport_vendor:/opt/ros/lyrical/opt/gz_physics_vendor:/opt/ros/lyrical/opt/sdformat_vendor:/opt/ros/lyrical/opt/gz_rendering_vendor:/opt/ros/lyrical/opt/gz_plugin_vendor:/opt/ros/lyrical/opt/gz_fuel_tools_vendor:/opt/ros/lyrical/opt/gz_msgs_vendor:/opt/ros/lyrical/opt/gz_common_vendor:/opt/ros/lyrical/opt/gz_math_vendor:/opt/ros/lyrical/opt/gz_utils_vendor:/opt/ros/lyrical/opt/gz_tools_vendor:/opt/ros/lyrical/opt/gz_ogre_next_vendor:/opt/ros/lyrical/opt/gz_dartsim_vendor:/opt/ros/lyrical/opt/gz_cmake_vendor'}), 'shell': False}
+[1.507355] (-) TimerEvent: {}
+[1.523059] (srv_pkg) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 15.2.0\n'}
+[1.568671] (srv_pkg) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.607506] (-) TimerEvent: {}
+[1.707924] (-) TimerEvent: {}
+[1.808481] (-) TimerEvent: {}
+[1.822368] (srv_pkg) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.857870] (srv_pkg) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.859375] (srv_pkg) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.861605] (srv_pkg) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.908333] (srv_pkg) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.908632] (-) TimerEvent: {}
+[1.959024] (boki_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[1.991223] (boki_pkg) StdoutLine: {'line': b'writing ../../build/boki_pkg/boki_pkg.egg-info/PKG-INFO\n'}
+[1.992070] (boki_pkg) StdoutLine: {'line': b'writing dependency_links to ../../build/boki_pkg/boki_pkg.egg-info/dependency_links.txt\n'}
+[1.992582] (boki_pkg) StdoutLine: {'line': b'writing entry points to ../../build/boki_pkg/boki_pkg.egg-info/entry_points.txt\n'}
+[1.992965] (boki_pkg) StdoutLine: {'line': b'writing requirements to ../../build/boki_pkg/boki_pkg.egg-info/requires.txt\n'}
+[1.993190] (boki_pkg) StdoutLine: {'line': b'writing top-level names to ../../build/boki_pkg/boki_pkg.egg-info/top_level.txt\n'}
+[2.008769] (-) TimerEvent: {}
+[2.063308] (boki_pkg) StdoutLine: {'line': b"reading manifest file '../../build/boki_pkg/boki_pkg.egg-info/SOURCES.txt'\n"}
+[2.065343] (boki_pkg) StdoutLine: {'line': b"writing manifest file '../../build/boki_pkg/boki_pkg.egg-info/SOURCES.txt'\n"}
+[2.065699] (boki_pkg) StdoutLine: {'line': b'running build\n'}
+[2.065869] (boki_pkg) StdoutLine: {'line': b'running build_py\n'}
+[2.066138] (boki_pkg) StdoutLine: {'line': b'copying boki_pkg/boki_node.py -> /home/shreyas/ros2_projects/ros2_ws/build/boki_pkg/build/lib/boki_pkg\n'}
+[2.067426] (boki_pkg) StdoutLine: {'line': b'copying boki_pkg/boki_publisher.py -> /home/shreyas/ros2_projects/ros2_ws/build/boki_pkg/build/lib/boki_pkg\n'}
+[2.067647] (boki_pkg) StdoutLine: {'line': b'copying boki_pkg/__init__.py -> /home/shreyas/ros2_projects/ros2_ws/build/boki_pkg/build/lib/boki_pkg\n'}
+[2.068107] (boki_pkg) StdoutLine: {'line': b'copying boki_pkg/boki_subscriber.py -> /home/shreyas/ros2_projects/ros2_ws/build/boki_pkg/build/lib/boki_pkg\n'}
+[2.068532] (boki_pkg) StdoutLine: {'line': b'copying boki_pkg/py.typed -> /home/shreyas/ros2_projects/ros2_ws/build/boki_pkg/build/lib/boki_pkg\n'}
+[2.068852] (boki_pkg) StdoutLine: {'line': b'running install\n'}
+[2.074647] (boki_pkg) StdoutLine: {'line': b'running install_lib\n'}
+[2.106834] (boki_pkg) StdoutLine: {'line': b'running install_data\n'}
+[2.107111] (boki_pkg) StdoutLine: {'line': b'copying resource/boki_pkg -> /home/shreyas/ros2_projects/ros2_ws/install/boki_pkg/share/ament_index/resource_index/packages\n'}
+[2.107362] (boki_pkg) StdoutLine: {'line': b'copying package.xml -> /home/shreyas/ros2_projects/ros2_ws/install/boki_pkg/share/boki_pkg\n'}
+[2.107684] (boki_pkg) StdoutLine: {'line': b'running install_egg_info\n'}
+[2.108885] (-) TimerEvent: {}
+[2.131463] (srv_pkg) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.141289] (boki_pkg) StdoutLine: {'line': b"removing '/home/shreyas/ros2_projects/ros2_ws/install/boki_pkg/lib/python3.14/site-packages/boki_pkg-0.0.0-py3.14.egg-info' (and everything under it)\n"}
+[2.143665] (boki_pkg) StdoutLine: {'line': b'Copying ../../build/boki_pkg/boki_pkg.egg-info to /home/shreyas/ros2_projects/ros2_ws/install/boki_pkg/lib/python3.14/site-packages/boki_pkg-0.0.0-py3.14.egg-info\n'}
+[2.145605] (boki_pkg) StdoutLine: {'line': b'running install_scripts\n'}
+[2.183920] (srv_pkg) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[2.184475] (srv_pkg) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.186230] (srv_pkg) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.209025] (-) TimerEvent: {}
+[2.275919] (srv_pkg) StdoutLine: {'line': b'-- Found ament_cmake: 2.8.8 (/opt/ros/lyrical/share/ament_cmake/cmake)\n'}
+[2.308909] (boki_pkg) StdoutLine: {'line': b'Installing boki_node script to /home/shreyas/ros2_projects/ros2_ws/install/boki_pkg/lib/boki_pkg\n'}
+[2.309180] (-) TimerEvent: {}
+[2.309526] (boki_pkg) StdoutLine: {'line': b'Installing boki_publisher script to /home/shreyas/ros2_projects/ros2_ws/install/boki_pkg/lib/boki_pkg\n'}
+[2.309726] (boki_pkg) StdoutLine: {'line': b'Installing boki_subscriber script to /home/shreyas/ros2_projects/ros2_ws/install/boki_pkg/lib/boki_pkg\n'}
+[2.310254] (boki_pkg) StdoutLine: {'line': b"writing list of installed files to '/home/shreyas/ros2_projects/ros2_ws/build/boki_pkg/install.log'\n"}
+[2.385136] (boki_pkg) CommandEnded: {'returncode': 0}
+[2.409822] (-) TimerEvent: {}
+[2.416678] (boki_pkg) JobEnded: {'identifier': 'boki_pkg', 'rc': 0}
+[2.510018] (-) TimerEvent: {}
+[2.610417] (-) TimerEvent: {}
+[2.711339] (-) TimerEvent: {}
+[2.812064] (-) TimerEvent: {}
+[2.912597] (-) TimerEvent: {}
+[3.013037] (-) TimerEvent: {}
+[3.113502] (-) TimerEvent: {}
+[3.138575] (srv_pkg) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.8.1 (/opt/ros/lyrical/share/rosidl_default_generators/cmake)\n'}
+[3.166042] (srv_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.213696] (-) TimerEvent: {}
+[3.314158] (-) TimerEvent: {}
+[3.342932] (srv_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.414356] (-) TimerEvent: {}
+[3.514803] (-) TimerEvent: {}
+[3.519840] (srv_pkg) StdoutLine: {'line': b'-- Found rosidl_adapter: 5.2.1 (/opt/ros/lyrical/share/rosidl_adapter/cmake)\n'}
+[3.542024] (srv_pkg) StdoutLine: {'line': b'-- Found std_msgs: 5.9.3 (/opt/ros/lyrical/share/std_msgs/cmake)\n'}
+[3.614974] (-) TimerEvent: {}
+[3.715414] (-) TimerEvent: {}
+[3.815869] (-) TimerEvent: {}
+[3.916377] (-) TimerEvent: {}
+[4.003289] (srv_pkg) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.14.4") found components: Interpreter\n'}
+[4.016536] (-) TimerEvent: {}
+[4.116937] (-) TimerEvent: {}
+[4.217362] (-) TimerEvent: {}
+[4.230231] (srv_pkg) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/lyrical/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:57 (message):\n'}
+[4.230560] (srv_pkg) StderrLine: {'line': b'  execute_process(/usr/bin/python3 -m rosidl_adapter --package-name srv_pkg\n'}
+[4.230699] (srv_pkg) StderrLine: {'line': b'  --arguments-file\n'}
+[4.230813] (srv_pkg) StderrLine: {'line': b'  /home/shreyas/ros2_projects/ros2_ws/build/srv_pkg/rosidl_adapter__arguments__srv_pkg.json\n'}
+[4.230934] (srv_pkg) StderrLine: {'line': b'  --output-dir\n'}
+[4.231058] (srv_pkg) StderrLine: {'line': b'  /home/shreyas/ros2_projects/ros2_ws/build/srv_pkg/rosidl_adapter/srv_pkg\n'}
+[4.231215] (srv_pkg) StderrLine: {'line': b'  --output-file\n'}
+[4.231437] (srv_pkg) StderrLine: {'line': b'  /home/shreyas/ros2_projects/ros2_ws/build/srv_pkg/rosidl_adapter/srv_pkg.idls)\n'}
+[4.231620] (srv_pkg) StderrLine: {'line': b'  returned error code 1:\n'}
+[4.231800] (srv_pkg) StderrLine: {'line': b'\n'}
+[4.231974] (srv_pkg) StderrLine: {'line': b"  Error processing 'flot32 target_speed' of 'srv_pkg/SetRobotSpeed_Request':\n"}
+[4.232126] (srv_pkg) StderrLine: {'line': b"  ''flot32' is an invalid message name.  It should have the pattern\n"}
+[4.232276] (srv_pkg) StderrLine: {'line': b"  '^[A-Z][A-Za-z0-9]*$''\n"}
+[4.232462] (srv_pkg) StderrLine: {'line': b'\n'}
+[4.232614] (srv_pkg) StderrLine: {'line': b'  Traceback (most recent call last):\n'}
+[4.232771] (srv_pkg) StderrLine: {'line': b'\n'}
+[4.232955] (srv_pkg) StderrLine: {'line': b'    File "<frozen runpy>", line 198, in _run_module_as_main\n'}
+[4.233078] (srv_pkg) StderrLine: {'line': b'    File "<frozen runpy>", line 88, in _run_code\n'}
+[4.233182] (srv_pkg) StderrLine: {'line': b'    File "/opt/ros/lyrical/lib/python3.14/site-packages/rosidl_adapter/__main__.py", line 19, in <module>\n'}
+[4.233313] (srv_pkg) StderrLine: {'line': b'      main()\n'}
+[4.233447] (srv_pkg) StderrLine: {'line': b'      ~~~~^^\n'}
+[4.233567] (srv_pkg) StderrLine: {'line': b'    File "/opt/ros/lyrical/lib/python3.14/site-packages/rosidl_adapter/main.py", line 54, in main\n'}
+[4.233690] (srv_pkg) StderrLine: {'line': b'      abs_idl_file = convert_to_idl(\n'}
+[4.233815] (srv_pkg) StderrLine: {'line': b'          pathlib.Path(basepath), args.package_name,\n'}
+[4.233929] (srv_pkg) StderrLine: {'line': b'          pathlib.Path(relative_path), output_dir)\n'}
+[4.234048] (srv_pkg) StderrLine: {'line': b'    File "/opt/ros/lyrical/lib/python3.14/site-packages/rosidl_adapter/__init__.py", line 27, in convert_to_idl\n'}
+[4.234154] (srv_pkg) StderrLine: {'line': b'      return convert_srv_to_idl(\n'}
+[4.234260] (srv_pkg) StderrLine: {'line': b"          package_dir, package_name, interface_file, output_dir / 'srv')\n"}
+[4.234399] (srv_pkg) StderrLine: {'line': b'    File "/opt/ros/lyrical/lib/python3.14/site-packages/rosidl_adapter/srv/__init__.py", line 31, in convert_srv_to_idl\n'}
+[4.234530] (srv_pkg) StderrLine: {'line': b'      srv = parse_service_string(package_name, input_file.stem, content)\n'}
+[4.234647] (srv_pkg) StderrLine: {'line': b'    File "/opt/ros/lyrical/lib/python3.14/site-packages/rosidl_adapter/parser.py", line 907, in parse_service_string\n'}
+[4.234750] (srv_pkg) StderrLine: {'line': b'      request_message = parse_message_string(\n'}
+[4.234850] (srv_pkg) StderrLine: {'line': b'          pkg_name, srv_name + SERVICE_REQUEST_MESSAGE_SUFFIX, request_message_string)\n'}
+[4.234951] (srv_pkg) StderrLine: {'line': b'    File "/opt/ros/lyrical/lib/python3.14/site-packages/rosidl_adapter/parser.py", line 558, in parse_message_string\n'}
+[4.235058] (srv_pkg) StderrLine: {'line': b'      Type(type_string, context_package_name=pkg_name),\n'}
+[4.235161] (srv_pkg) StderrLine: {'line': b'      ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n'}
+[4.235264] (srv_pkg) StderrLine: {'line': b'    File "/opt/ros/lyrical/lib/python3.14/site-packages/rosidl_adapter/parser.py", line 300, in __init__\n'}
+[4.235437] (srv_pkg) StderrLine: {'line': b'      super(Type, self).__init__(\n'}
+[4.235564] (srv_pkg) StderrLine: {'line': b'      ~~~~~~~~~~~~~~~~~~~~~~~~~~^\n'}
+[4.235725] (srv_pkg) StderrLine: {'line': b'          type_string,\n'}
+[4.235834] (srv_pkg) StderrLine: {'line': b'          ^^^^^^^^^^^^\n'}
+[4.235938] (srv_pkg) StderrLine: {'line': b'          context_package_name=context_package_name)\n'}
+[4.236049] (srv_pkg) StderrLine: {'line': b'          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n'}
+[4.236155] (srv_pkg) StderrLine: {'line': b'    File "/opt/ros/lyrical/lib/python3.14/site-packages/rosidl_adapter/parser.py", line 228, in __init__\n'}
+[4.236333] (srv_pkg) StderrLine: {'line': b'      raise InvalidResourceName(\n'}
+[4.236505] (srv_pkg) StderrLine: {'line': b'          "\'{}\' is an invalid message name. It should have the pattern \'{}\'".format(\n'}
+[4.236628] (srv_pkg) StderrLine: {'line': b'              self.type, VALID_MESSAGE_NAME_PATTERN.pattern))\n'}
+[4.236740] (srv_pkg) StderrLine: {'line': b'\n'}
+[4.236903] (srv_pkg) StderrLine: {'line': b"  rosidl_adapter.parser.InvalidResourceName: 'flot32' is an invalid message\n"}
+[4.237069] (srv_pkg) StderrLine: {'line': b"  name.  It should have the pattern '^[A-Z][A-Za-z0-9]*$'\n"}
+[4.237196] (srv_pkg) StderrLine: {'line': b'\n'}
+[4.237352] (srv_pkg) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[4.237544] (srv_pkg) StderrLine: {'line': b'  /opt/ros/lyrical/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:132 (rosidl_adapt_interfaces)\n'}
+[4.237676] (srv_pkg) StderrLine: {'line': b'  CMakeLists.txt:13 (rosidl_generate_interfaces)\n'}
+[4.237782] (srv_pkg) StderrLine: {'line': b'\n'}
+[4.237896] (srv_pkg) StderrLine: {'line': b'\x1b[0m\n'}
+[4.237999] (srv_pkg) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[4.253160] (srv_pkg) CommandEnded: {'returncode': 1}
+[4.294868] (srv_pkg) JobEnded: {'identifier': 'srv_pkg', 'rc': 1}
+[4.297053] (-) EventReactorShutdown: {}

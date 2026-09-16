@@ -1,0 +1,9 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/shreyas/ros2_projects/ros2_ws/build/srv_pkg/cmake_install.cmake",
+		"/home/shreyas/ros2_projects/ros2_ws/build/srv_pkg/srv_pkg__py/cmake_install.cmake",
+		"/home/shreyas/ros2_projects/ros2_ws/build/srv_pkg/srv_pkg__rs/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

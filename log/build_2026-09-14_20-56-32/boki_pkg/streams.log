@@ -1,0 +1,34 @@
+[1.165s] Invoking command in '/home/shreyas/ros2_projects/ros2_ws/src/boki_pkg': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/shreyas/ros2_projects/ros2_ws/build/boki_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/shreyas/ros2_projects/ros2_ws/install/boki_pkg/lib/python3.14/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/boki_pkg build --build-base /home/shreyas/ros2_projects/ros2_ws/build/boki_pkg/build install --record /home/shreyas/ros2_projects/ros2_ws/build/boki_pkg/install.log --install-scripts $base/lib/boki_pkg --single-version-externally-managed install_data
+[1.559s] running egg_info
+[1.586s] writing ../../build/boki_pkg/boki_pkg.egg-info/PKG-INFO
+[1.587s] writing dependency_links to ../../build/boki_pkg/boki_pkg.egg-info/dependency_links.txt
+[1.587s] writing entry points to ../../build/boki_pkg/boki_pkg.egg-info/entry_points.txt
+[1.587s] writing requirements to ../../build/boki_pkg/boki_pkg.egg-info/requires.txt
+[1.587s] writing top-level names to ../../build/boki_pkg/boki_pkg.egg-info/top_level.txt
+[1.652s] reading manifest file '../../build/boki_pkg/boki_pkg.egg-info/SOURCES.txt'
+[1.653s] writing manifest file '../../build/boki_pkg/boki_pkg.egg-info/SOURCES.txt'
+[1.653s] running build
+[1.653s] running build_py
+[1.654s] copying boki_pkg/boki_node.py -> /home/shreyas/ros2_projects/ros2_ws/build/boki_pkg/build/lib/boki_pkg
+[1.654s] copying boki_pkg/boki_publisher.py -> /home/shreyas/ros2_projects/ros2_ws/build/boki_pkg/build/lib/boki_pkg
+[1.654s] copying boki_pkg/__init__.py -> /home/shreyas/ros2_projects/ros2_ws/build/boki_pkg/build/lib/boki_pkg
+[1.654s] copying boki_pkg/py.typed -> /home/shreyas/ros2_projects/ros2_ws/build/boki_pkg/build/lib/boki_pkg
+[1.655s] running install
+[1.660s] running install_lib
+[1.690s] copying /home/shreyas/ros2_projects/ros2_ws/build/boki_pkg/build/lib/boki_pkg/boki_node.py -> /home/shreyas/ros2_projects/ros2_ws/install/boki_pkg/lib/python3.14/site-packages/boki_pkg
+[1.691s] copying /home/shreyas/ros2_projects/ros2_ws/build/boki_pkg/build/lib/boki_pkg/boki_publisher.py -> /home/shreyas/ros2_projects/ros2_ws/install/boki_pkg/lib/python3.14/site-packages/boki_pkg
+[1.691s] copying /home/shreyas/ros2_projects/ros2_ws/build/boki_pkg/build/lib/boki_pkg/__init__.py -> /home/shreyas/ros2_projects/ros2_ws/install/boki_pkg/lib/python3.14/site-packages/boki_pkg
+[1.691s] byte-compiling /home/shreyas/ros2_projects/ros2_ws/install/boki_pkg/lib/python3.14/site-packages/boki_pkg/boki_node.py to boki_node.cpython-314.pyc
+[1.691s] byte-compiling /home/shreyas/ros2_projects/ros2_ws/install/boki_pkg/lib/python3.14/site-packages/boki_pkg/boki_publisher.py to boki_publisher.cpython-314.pyc
+[1.692s] byte-compiling /home/shreyas/ros2_projects/ros2_ws/install/boki_pkg/lib/python3.14/site-packages/boki_pkg/__init__.py to __init__.cpython-314.pyc
+[1.692s] running install_data
+[1.692s] copying resource/boki_pkg -> /home/shreyas/ros2_projects/ros2_ws/install/boki_pkg/share/ament_index/resource_index/packages
+[1.692s] copying package.xml -> /home/shreyas/ros2_projects/ros2_ws/install/boki_pkg/share/boki_pkg
+[1.693s] running install_egg_info
+[1.724s] removing '/home/shreyas/ros2_projects/ros2_ws/install/boki_pkg/lib/python3.14/site-packages/boki_pkg-0.0.0-py3.14.egg-info' (and everything under it)
+[1.725s] Copying ../../build/boki_pkg/boki_pkg.egg-info to /home/shreyas/ros2_projects/ros2_ws/install/boki_pkg/lib/python3.14/site-packages/boki_pkg-0.0.0-py3.14.egg-info
+[1.730s] running install_scripts
+[1.903s] Installing boki_node script to /home/shreyas/ros2_projects/ros2_ws/install/boki_pkg/lib/boki_pkg
+[1.903s] Installing boki_publisher script to /home/shreyas/ros2_projects/ros2_ws/install/boki_pkg/lib/boki_pkg
+[1.904s] writing list of installed files to '/home/shreyas/ros2_projects/ros2_ws/build/boki_pkg/install.log'
+[1.978s] Invoked command in '/home/shreyas/ros2_projects/ros2_ws/src/boki_pkg' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/shreyas/ros2_projects/ros2_ws/build/boki_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/shreyas/ros2_projects/ros2_ws/install/boki_pkg/lib/python3.14/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/boki_pkg build --build-base /home/shreyas/ros2_projects/ros2_ws/build/boki_pkg/build install --record /home/shreyas/ros2_projects/ros2_ws/build/boki_pkg/install.log --install-scripts $base/lib/boki_pkg --single-version-externally-managed install_data

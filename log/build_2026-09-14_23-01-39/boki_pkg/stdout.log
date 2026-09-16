@@ -1,0 +1,32 @@
+running egg_info
+writing ../../build/boki_pkg/boki_pkg.egg-info/PKG-INFO
+writing dependency_links to ../../build/boki_pkg/boki_pkg.egg-info/dependency_links.txt
+writing entry points to ../../build/boki_pkg/boki_pkg.egg-info/entry_points.txt
+writing requirements to ../../build/boki_pkg/boki_pkg.egg-info/requires.txt
+writing top-level names to ../../build/boki_pkg/boki_pkg.egg-info/top_level.txt
+reading manifest file '../../build/boki_pkg/boki_pkg.egg-info/SOURCES.txt'
+writing manifest file '../../build/boki_pkg/boki_pkg.egg-info/SOURCES.txt'
+running build
+running build_py
+copying boki_pkg/boki_node.py -> /home/shreyas/ros2_projects/ros2_ws/build/boki_pkg/build/lib/boki_pkg
+copying boki_pkg/boki_publisher.py -> /home/shreyas/ros2_projects/ros2_ws/build/boki_pkg/build/lib/boki_pkg
+copying boki_pkg/__init__.py -> /home/shreyas/ros2_projects/ros2_ws/build/boki_pkg/build/lib/boki_pkg
+copying boki_pkg/boki_subscriber.py -> /home/shreyas/ros2_projects/ros2_ws/build/boki_pkg/build/lib/boki_pkg
+copying boki_pkg/py.typed -> /home/shreyas/ros2_projects/ros2_ws/build/boki_pkg/build/lib/boki_pkg
+running install
+running install_lib
+copying /home/shreyas/ros2_projects/ros2_ws/build/boki_pkg/build/lib/boki_pkg/boki_publisher.py -> /home/shreyas/ros2_projects/ros2_ws/install/boki_pkg/lib/python3.14/site-packages/boki_pkg
+copying /home/shreyas/ros2_projects/ros2_ws/build/boki_pkg/build/lib/boki_pkg/boki_subscriber.py -> /home/shreyas/ros2_projects/ros2_ws/install/boki_pkg/lib/python3.14/site-packages/boki_pkg
+byte-compiling /home/shreyas/ros2_projects/ros2_ws/install/boki_pkg/lib/python3.14/site-packages/boki_pkg/boki_publisher.py to boki_publisher.cpython-314.pyc
+byte-compiling /home/shreyas/ros2_projects/ros2_ws/install/boki_pkg/lib/python3.14/site-packages/boki_pkg/boki_subscriber.py to boki_subscriber.cpython-314.pyc
+running install_data
+copying resource/boki_pkg -> /home/shreyas/ros2_projects/ros2_ws/install/boki_pkg/share/ament_index/resource_index/packages
+copying package.xml -> /home/shreyas/ros2_projects/ros2_ws/install/boki_pkg/share/boki_pkg
+running install_egg_info
+removing '/home/shreyas/ros2_projects/ros2_ws/install/boki_pkg/lib/python3.14/site-packages/boki_pkg-0.0.0-py3.14.egg-info' (and everything under it)
+Copying ../../build/boki_pkg/boki_pkg.egg-info to /home/shreyas/ros2_projects/ros2_ws/install/boki_pkg/lib/python3.14/site-packages/boki_pkg-0.0.0-py3.14.egg-info
+running install_scripts
+Installing boki_node script to /home/shreyas/ros2_projects/ros2_ws/install/boki_pkg/lib/boki_pkg
+Installing boki_publisher script to /home/shreyas/ros2_projects/ros2_ws/install/boki_pkg/lib/boki_pkg
+Installing boki_subscriber script to /home/shreyas/ros2_projects/ros2_ws/install/boki_pkg/lib/boki_pkg
+writing list of installed files to '/home/shreyas/ros2_projects/ros2_ws/build/boki_pkg/install.log'

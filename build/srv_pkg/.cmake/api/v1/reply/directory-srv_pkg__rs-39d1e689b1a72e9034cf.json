@@ -1,0 +1,19 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"codemodelVersion" : 
+	{
+		"major" : 2,
+		"minor" : 9
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "srv_pkg__rs",
+		"source" : "/home/shreyas/ros2_projects/ros2_ws/build/srv_pkg/srv_pkg__rs"
+	}
+}

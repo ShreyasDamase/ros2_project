@@ -1,0 +1,21 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from srv_pkg/srv/SetRobotSpeed.srv
+// generated code does not contain a copyright notice
+
+
+module srv_pkg {
+  module srv {
+    struct SetRobotSpeed_Request {
+      float target_speed;
+
+      boolean gradual;
+    };
+    struct SetRobotSpeed_Response {
+      boolean success;
+
+      float applied_speed;
+
+      string message;
+    };
+  };
+};

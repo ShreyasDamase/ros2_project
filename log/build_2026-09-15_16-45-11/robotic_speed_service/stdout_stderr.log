@@ -1,0 +1,24 @@
+running egg_info
+writing ../../build/robotic_speed_service/robotic_speed_service.egg-info/PKG-INFO
+writing dependency_links to ../../build/robotic_speed_service/robotic_speed_service.egg-info/dependency_links.txt
+writing entry points to ../../build/robotic_speed_service/robotic_speed_service.egg-info/entry_points.txt
+writing requirements to ../../build/robotic_speed_service/robotic_speed_service.egg-info/requires.txt
+writing top-level names to ../../build/robotic_speed_service/robotic_speed_service.egg-info/top_level.txt
+reading manifest file '../../build/robotic_speed_service/robotic_speed_service.egg-info/SOURCES.txt'
+writing manifest file '../../build/robotic_speed_service/robotic_speed_service.egg-info/SOURCES.txt'
+running build
+running build_py
+copying robotic_speed_service/speed_server.py -> /home/shreyas/ros2_projects/ros2_ws/build/robotic_speed_service/build/lib/robotic_speed_service
+copying robotic_speed_service/speed_client.py -> /home/shreyas/ros2_projects/ros2_ws/build/robotic_speed_service/build/lib/robotic_speed_service
+copying robotic_speed_service/__init__.py -> /home/shreyas/ros2_projects/ros2_ws/build/robotic_speed_service/build/lib/robotic_speed_service
+copying robotic_speed_service/py.typed -> /home/shreyas/ros2_projects/ros2_ws/build/robotic_speed_service/build/lib/robotic_speed_service
+running install
+running install_lib
+running install_data
+copying resource/robotic_speed_service -> /home/shreyas/ros2_projects/ros2_ws/install/robotic_speed_service/share/ament_index/resource_index/packages
+copying package.xml -> /home/shreyas/ros2_projects/ros2_ws/install/robotic_speed_service/share/robotic_speed_service
+running install_egg_info
+removing '/home/shreyas/ros2_projects/ros2_ws/install/robotic_speed_service/lib/python3.14/site-packages/robotic_speed_service-0.0.0-py3.14.egg-info' (and everything under it)
+Copying ../../build/robotic_speed_service/robotic_speed_service.egg-info to /home/shreyas/ros2_projects/ros2_ws/install/robotic_speed_service/lib/python3.14/site-packages/robotic_speed_service-0.0.0-py3.14.egg-info
+running install_scripts
+interrupted

@@ -1,0 +1,4 @@
+[console_scripts]
+boki_node = boki_pkg.boki_node:main
+boki_publisher = boki_pkg.boki_publisher:main
+boki_subscriber = boki_pkg.boki_subscriber:main

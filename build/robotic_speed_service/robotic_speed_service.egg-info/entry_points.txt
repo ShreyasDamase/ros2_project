@@ -1,0 +1,3 @@
+[console_scripts]
+speed_client = robotic_speed_service.speed_client:main
+speed_server = robotic_speed_service.speed_server:main

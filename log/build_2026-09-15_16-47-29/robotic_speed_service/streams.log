@@ -1,0 +1,30 @@
+[1.476s] Invoking command in '/home/shreyas/ros2_projects/ros2_ws/src/robotic_speed_service': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/shreyas/ros2_projects/ros2_ws/build/robotic_speed_service/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/shreyas/ros2_projects/ros2_ws/install/robotic_speed_service/lib/python3.14/site-packages:/home/shreyas/ros2_projects/ros2_ws/install/srv_pkg/lib/python3.14/site-packages:/home/shreyas/ros2_projects/ros2_ws/install/robotic_speed_service/lib/python3.14/site-packages:/home/shreyas/ros2_projects/ros2_ws/install/boki_pkg/lib/python3.14/site-packages:/opt/ros/lyrical/opt/gz_sim_vendor/lib/python:/opt/ros/lyrical/opt/gz_transport_vendor/lib/python:/opt/ros/lyrical/opt/sdformat_vendor/lib/python:/opt/ros/lyrical/opt/gz_msgs_vendor/lib/python:/opt/ros/lyrical/opt/gz_math_vendor/lib/python:/opt/ros/lyrical/lib/python3.14/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robotic_speed_service build --build-base /home/shreyas/ros2_projects/ros2_ws/build/robotic_speed_service/build install --record /home/shreyas/ros2_projects/ros2_ws/build/robotic_speed_service/install.log --install-scripts $base/lib/robotic_speed_service --single-version-externally-managed install_data
+[1.960s] running egg_info
+[1.992s] writing ../../build/robotic_speed_service/robotic_speed_service.egg-info/PKG-INFO
+[1.993s] writing dependency_links to ../../build/robotic_speed_service/robotic_speed_service.egg-info/dependency_links.txt
+[1.993s] writing entry points to ../../build/robotic_speed_service/robotic_speed_service.egg-info/entry_points.txt
+[1.993s] writing requirements to ../../build/robotic_speed_service/robotic_speed_service.egg-info/requires.txt
+[1.994s] writing top-level names to ../../build/robotic_speed_service/robotic_speed_service.egg-info/top_level.txt
+[2.068s] reading manifest file '../../build/robotic_speed_service/robotic_speed_service.egg-info/SOURCES.txt'
+[2.069s] writing manifest file '../../build/robotic_speed_service/robotic_speed_service.egg-info/SOURCES.txt'
+[2.070s] running build
+[2.070s] running build_py
+[2.070s] copying robotic_speed_service/speed_server.py -> /home/shreyas/ros2_projects/ros2_ws/build/robotic_speed_service/build/lib/robotic_speed_service
+[2.071s] copying robotic_speed_service/speed_client.py -> /home/shreyas/ros2_projects/ros2_ws/build/robotic_speed_service/build/lib/robotic_speed_service
+[2.071s] copying robotic_speed_service/__init__.py -> /home/shreyas/ros2_projects/ros2_ws/build/robotic_speed_service/build/lib/robotic_speed_service
+[2.071s] copying robotic_speed_service/py.typed -> /home/shreyas/ros2_projects/ros2_ws/build/robotic_speed_service/build/lib/robotic_speed_service
+[2.071s] running install
+[2.079s] running install_lib
+[2.116s] copying /home/shreyas/ros2_projects/ros2_ws/build/robotic_speed_service/build/lib/robotic_speed_service/speed_client.py -> /home/shreyas/ros2_projects/ros2_ws/install/robotic_speed_service/lib/python3.14/site-packages/robotic_speed_service
+[2.116s] byte-compiling /home/shreyas/ros2_projects/ros2_ws/install/robotic_speed_service/lib/python3.14/site-packages/robotic_speed_service/speed_client.py to speed_client.cpython-314.pyc
+[2.118s] running install_data
+[2.118s] copying resource/robotic_speed_service -> /home/shreyas/ros2_projects/ros2_ws/install/robotic_speed_service/share/ament_index/resource_index/packages
+[2.119s] copying package.xml -> /home/shreyas/ros2_projects/ros2_ws/install/robotic_speed_service/share/robotic_speed_service
+[2.119s] running install_egg_info
+[2.151s] removing '/home/shreyas/ros2_projects/ros2_ws/install/robotic_speed_service/lib/python3.14/site-packages/robotic_speed_service-0.0.0-py3.14.egg-info' (and everything under it)
+[2.152s] Copying ../../build/robotic_speed_service/robotic_speed_service.egg-info to /home/shreyas/ros2_projects/ros2_ws/install/robotic_speed_service/lib/python3.14/site-packages/robotic_speed_service-0.0.0-py3.14.egg-info
+[2.153s] running install_scripts
+[2.322s] Installing speed_client script to /home/shreyas/ros2_projects/ros2_ws/install/robotic_speed_service/lib/robotic_speed_service
+[2.323s] Installing speed_server script to /home/shreyas/ros2_projects/ros2_ws/install/robotic_speed_service/lib/robotic_speed_service
+[2.324s] writing list of installed files to '/home/shreyas/ros2_projects/ros2_ws/build/robotic_speed_service/install.log'
+[2.381s] Invoked command in '/home/shreyas/ros2_projects/ros2_ws/src/robotic_speed_service' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/shreyas/ros2_projects/ros2_ws/build/robotic_speed_service/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/shreyas/ros2_projects/ros2_ws/install/robotic_speed_service/lib/python3.14/site-packages:/home/shreyas/ros2_projects/ros2_ws/install/srv_pkg/lib/python3.14/site-packages:/home/shreyas/ros2_projects/ros2_ws/install/robotic_speed_service/lib/python3.14/site-packages:/home/shreyas/ros2_projects/ros2_ws/install/boki_pkg/lib/python3.14/site-packages:/opt/ros/lyrical/opt/gz_sim_vendor/lib/python:/opt/ros/lyrical/opt/gz_transport_vendor/lib/python:/opt/ros/lyrical/opt/sdformat_vendor/lib/python:/opt/ros/lyrical/opt/gz_msgs_vendor/lib/python:/opt/ros/lyrical/opt/gz_math_vendor/lib/python:/opt/ros/lyrical/lib/python3.14/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robotic_speed_service build --build-base /home/shreyas/ros2_projects/ros2_ws/build/robotic_speed_service/build install --record /home/shreyas/ros2_projects/ros2_ws/build/robotic_speed_service/install.log --install-scripts $base/lib/robotic_speed_service --single-version-externally-managed install_data

@@ -1,0 +1,12 @@
+{
+  "package_name": "srv_pkg",
+  "output_dir": "/home/shreyas/ros2_projects/ros2_ws/build/srv_pkg/rosidl_generator_type_description/srv_pkg",
+  "idl_tuples": [
+    "/home/shreyas/ros2_projects/ros2_ws/build/srv_pkg/rosidl_adapter/srv_pkg:srv/SetRobotSpeed.idl"
+  ],
+  "include_paths": [
+    "std_msgs:/opt/ros/lyrical/share/std_msgs/",
+    "builtin_interfaces:/opt/ros/lyrical/share/builtin_interfaces/",
+    "service_msgs:/opt/ros/lyrical/share/service_msgs/"
+  ]
+}

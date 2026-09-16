@@ -1,0 +1,9 @@
+[0.934s] Invoking command in '/home/shreyas/ros2_projects/ros2_ws/build/srv_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/shreyas/ros2_projects/ros2_ws/src/srv_pkg -DCMAKE_INSTALL_PREFIX=/home/shreyas/ros2_projects/ros2_ws/install/srv_pkg
+[1.119s] [31mCMake Error at CMakeLists.txt:18:
+[1.120s]   Parse error.  Expected "(", got newline with text "
+[1.122s] 
+[1.123s]   ".
+[1.123s] 
+[1.123s] [0m
+[1.129s] -- Configuring incomplete, errors occurred!
+[1.141s] Invoked command in '/home/shreyas/ros2_projects/ros2_ws/build/srv_pkg' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/shreyas/ros2_projects/ros2_ws/src/srv_pkg -DCMAKE_INSTALL_PREFIX=/home/shreyas/ros2_projects/ros2_ws/install/srv_pkg

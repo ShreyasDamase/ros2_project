@@ -1,0 +1,233 @@
+[0.480s] Invoking command in '/home/shreyas/ros2_projects/ros2_ws/build/srv_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/shreyas/ros2_projects/ros2_ws/src/srv_pkg -DCMAKE_INSTALL_PREFIX=/home/shreyas/ros2_projects/ros2_ws/install/srv_pkg
+[0.514s] -- Found ament_cmake: 2.8.8 (/opt/ros/lyrical/share/ament_cmake/cmake)
+[1.059s] -- Found rosidl_default_generators: 1.8.1 (/opt/ros/lyrical/share/rosidl_default_generators/cmake)
+[1.066s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.124s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.196s] -- Found rosidl_adapter: 5.2.1 (/opt/ros/lyrical/share/rosidl_adapter/cmake)
+[1.202s] -- Found std_msgs: 5.9.3 (/opt/ros/lyrical/share/std_msgs/cmake)
+[3.934s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.437s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[6.795s] -- Found Python3: /usr/bin/python3 (found version "3.14.4") found components: Interpreter Development NumPy Development.Module Development.Embed
+[6.908s] -- Found Python3: /usr/bin/python3 (found version "3.14.4") found components: Interpreter
+[6.928s] -- Found ament_lint_auto: 0.20.6 (/opt/ros/lyrical/share/ament_lint_auto/cmake)
+[7.058s] -- Added test 'lint_cmake' to check CMake code style
+[7.066s] -- Added test 'xmllint' to check XML markup files
+[7.077s] -- Configuring done (6.6s)
+[7.155s] -- Generating done (0.1s)
+[7.189s] -- Build files have been written to: /home/shreyas/ros2_projects/ros2_ws/build/srv_pkg
+[7.200s] Invoked command in '/home/shreyas/ros2_projects/ros2_ws/build/srv_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/shreyas/ros2_projects/ros2_ws/src/srv_pkg -DCMAKE_INSTALL_PREFIX=/home/shreyas/ros2_projects/ros2_ws/install/srv_pkg
+[7.204s] Invoking command in '/home/shreyas/ros2_projects/ros2_ws/build/srv_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/shreyas/ros2_projects/ros2_ws/build/srv_pkg -- -j8 -l8
+[7.318s] [  2%] [1m[34mGenerating type hashes for ROS interfaces[0m
+[7.319s] [  5%] [1m[34mGenerating Rust code for ROS interfaces[0m
+[7.729s] [  5%] Built target srv_pkg__rosidl_generator_type_description
+[7.759s] [  8%] [1m[34mGenerating C code for ROS interfaces[0m
+[7.786s] [ 11%] [1m[34mGenerating C++ code for ROS interfaces[0m
+[7.808s] [ 11%] Built target srv_pkg__rs
+[8.856s] [ 11%] Built target srv_pkg__cpp
+[8.951s] [ 14%] [32mBuilding C object CMakeFiles/srv_pkg__rosidl_generator_c.dir/rosidl_generator_c/srv_pkg/srv/detail/set_robot_speed__description.c.o[0m
+[8.955s] [ 20%] [32mBuilding C object CMakeFiles/srv_pkg__rosidl_generator_c.dir/rosidl_generator_c/srv_pkg/srv/detail/set_robot_speed__functions.c.o[0m
+[8.955s] [ 20%] [32mBuilding C object CMakeFiles/srv_pkg__rosidl_generator_c.dir/rosidl_generator_c/srv_pkg/srv/detail/set_robot_speed__type_support.c.o[0m
+[9.172s] [ 22%] [1m[32mLinking C shared library libsrv_pkg__rosidl_generator_c.so[0m
+[9.292s] [ 22%] Built target srv_pkg__rosidl_generator_c
+[9.327s] [ 25%] [1m[34mGenerating C type support dispatch for ROS interfaces[0m
+[9.328s] [ 28%] [1m[34mGenerating C++ introspection for ROS interfaces[0m
+[9.329s] [ 31%] [1m[34mGenerating C introspection for ROS interfaces[0m
+[9.332s] [ 34%] [1m[34mGenerating C++ type support for eProsima Fast-RTPS[0m
+[9.332s] [ 37%] [1m[34mGenerating C type support for eProsima Fast-RTPS[0m
+[9.333s] [ 40%] [1m[34mGenerating C++ type support dispatch for ROS interfaces[0m
+[10.669s] [ 42%] [32mBuilding CXX object CMakeFiles/srv_pkg__rosidl_typesupport_c.dir/rosidl_typesupport_c/srv_pkg/srv/set_robot_speed__type_support.cpp.o[0m
+[10.709s] [ 45%] [32mBuilding CXX object CMakeFiles/srv_pkg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/srv_pkg/srv/set_robot_speed__type_support.cpp.o[0m
+[10.750s] [ 48%] [32mBuilding C object CMakeFiles/srv_pkg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/srv_pkg/srv/detail/set_robot_speed__type_support.c.o[0m
+[10.816s] [ 51%] [32mBuilding CXX object CMakeFiles/srv_pkg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/srv_pkg/srv/detail/set_robot_speed__type_support.cpp.o[0m
+[10.858s] [ 54%] [1m[32mLinking CXX shared library libsrv_pkg__rosidl_typesupport_c.so[0m
+[10.883s] [ 57%] [1m[32mLinking C shared library libsrv_pkg__rosidl_typesupport_introspection_c.so[0m
+[10.894s] [ 60%] [32mBuilding CXX object CMakeFiles/srv_pkg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/srv_pkg/srv/detail/dds_fastrtps/set_robot_speed__type_support.cpp.o[0m
+[10.943s] [ 62%] [32mBuilding CXX object CMakeFiles/srv_pkg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/srv_pkg/srv/detail/set_robot_speed__type_support_c.cpp.o[0m
+[10.953s] [ 62%] Built target srv_pkg__rosidl_typesupport_c
+[10.959s] [ 62%] Built target srv_pkg__rosidl_typesupport_introspection_c
+[13.109s] [ 65%] [1m[32mLinking CXX shared library libsrv_pkg__rosidl_typesupport_cpp.so[0m
+[13.189s] [ 68%] [1m[32mLinking CXX shared library libsrv_pkg__rosidl_typesupport_introspection_cpp.so[0m
+[13.232s] [ 71%] [1m[32mLinking CXX shared library libsrv_pkg__rosidl_typesupport_fastrtps_c.so[0m
+[13.316s] [ 71%] Built target srv_pkg__rosidl_typesupport_cpp
+[13.422s] [ 71%] Built target srv_pkg__rosidl_typesupport_introspection_cpp
+[13.465s] [ 71%] Built target srv_pkg__rosidl_typesupport_fastrtps_c
+[13.514s] [ 74%] [1m[32mLinking CXX shared library libsrv_pkg__rosidl_typesupport_fastrtps_cpp.so[0m
+[13.687s] [ 74%] Built target srv_pkg__rosidl_typesupport_fastrtps_cpp
+[13.742s] [ 74%] Built target srv_pkg
+[13.787s] [ 77%] [1m[34mGenerating Python code for ROS interfaces[0m
+[15.029s] [ 77%] Built target srv_pkg__py
+[15.096s] [ 80%] [32mBuilding C object CMakeFiles/srv_pkg__rosidl_generator_py.dir/rosidl_generator_py/srv_pkg/srv/_set_robot_speed_s.c.o[0m
+[15.713s] [ 82%] [1m[32mLinking C shared library libsrv_pkg__rosidl_generator_py.so[0m
+[15.810s] [ 82%] Built target srv_pkg__rosidl_generator_py
+[15.896s] [ 82%] Built target ament_cmake_python_sync_srv_pkg
+[15.987s] [ 85%] [32mBuilding C object CMakeFiles/srv_pkg_s__rosidl_typesupport_c.dir/rosidl_generator_py/srv_pkg/_srv_pkg_s.ep.rosidl_typesupport_c.c.o[0m
+[16.464s] [ 88%] [1m[32mLinking C shared module rosidl_generator_py/srv_pkg/srv_pkg_s__rosidl_typesupport_c.so[0m
+[16.567s] [ 88%] Built target srv_pkg_s__rosidl_typesupport_c
+[16.702s] [ 91%] [32mBuilding C object CMakeFiles/srv_pkg_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/srv_pkg/_srv_pkg_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[17.077s] [ 94%] [1m[32mLinking C shared module rosidl_generator_py/srv_pkg/srv_pkg_s__rosidl_typesupport_introspection_c.so[0m
+[17.186s] [ 94%] Built target srv_pkg_s__rosidl_typesupport_introspection_c
+[17.410s] running egg_info
+[17.457s] creating srv_pkg.egg-info
+[17.458s] writing srv_pkg.egg-info/PKG-INFO
+[17.458s] writing dependency_links to srv_pkg.egg-info/dependency_links.txt
+[17.459s] writing top-level names to srv_pkg.egg-info/top_level.txt
+[17.459s] writing manifest file 'srv_pkg.egg-info/SOURCES.txt'
+[17.647s] reading manifest file 'srv_pkg.egg-info/SOURCES.txt'
+[17.651s] writing manifest file 'srv_pkg.egg-info/SOURCES.txt'
+[17.790s] [ 94%] Built target ament_cmake_python_build_srv_pkg_egg
+[17.865s] [ 97%] [32mBuilding C object CMakeFiles/srv_pkg_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/srv_pkg/_srv_pkg_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[18.138s] [100%] [1m[32mLinking C shared module rosidl_generator_py/srv_pkg/srv_pkg_s__rosidl_typesupport_fastrtps_c.so[0m
+[18.207s] [100%] Built target srv_pkg_s__rosidl_typesupport_fastrtps_c
+[18.228s] Invoked command in '/home/shreyas/ros2_projects/ros2_ws/build/srv_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/shreyas/ros2_projects/ros2_ws/build/srv_pkg -- -j8 -l8
+[18.253s] Invoking command in '/home/shreyas/ros2_projects/ros2_ws/build/srv_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/shreyas/ros2_projects/ros2_ws/build/srv_pkg
+[18.269s] -- Install configuration: ""
+[18.269s] -- Installing: /home/shreyas/ros2_projects/ros2_ws/install/srv_pkg/share/ament_index/resource_index/rosidl_interfaces/srv_pkg
+[18.269s] -- Installing: /home/shreyas/ros2_projects/ros2_ws/install/srv_pkg/share/srv_pkg/srv/SetRobotSpeed.json
+[18.270s] -- Installing: /home/shreyas/ros2_projects/ros2_ws/install/srv_pkg/include/srv_pkg/srv_pkg
+[18.270s] -- Installing: /home/shreyas/ros2_projects/ros2_ws/install/srv_pkg/include/srv_pkg/srv_pkg/msg
+[18.270s] -- Installing: /home/shreyas/ros2_projects/ros2_ws/install/srv_pkg/include/srv_pkg/srv_pkg/msg/rosidl_generator_c__visibility_control.h
+[18.270s] -- Installing: /home/shreyas/ros2_projects/ros2_ws/install/srv_pkg/include/srv_pkg/srv_pkg/srv
+[18.271s] -- Installing: /home/shreyas/ros2_projects/ros2_ws/install/srv_pkg/include/srv_pkg/srv_pkg/srv/detail
+[18.271s] -- Installing: /home/shreyas/ros2_projects/ros2_ws/install/srv_pkg/include/srv_pkg/srv_pkg/srv/detail/set_robot_speed__type_support.h
+[18.271s] -- Installing: /home/shreyas/ros2_projects/ros2_ws/install/srv_pkg/include/srv_pkg/srv_pkg/srv/detail/set_robot_speed__functions.h
+[18.271s] -- Installing: /home/shreyas/ros2_projects/ros2_ws/install/srv_pkg/include/srv_pkg/srv_pkg/srv/detail/set_robot_speed__type_support.c
+[18.272s] -- Installing: /home/shreyas/ros2_projects/ros2_ws/install/srv_pkg/include/srv_pkg/srv_pkg/srv/detail/set_robot_speed__description.c
+[18.272s] -- Installing: /home/shreyas/ros2_projects/ros2_ws/install/srv_pkg/include/srv_pkg/srv_pkg/srv/detail/set_robot_speed__struct.h
+[18.272s] -- Installing: /home/shreyas/ros2_projects/ros2_ws/install/srv_pkg/include/srv_pkg/srv_pkg/srv/detail/set_robot_speed__functions.c
+[18.272s] -- Installing: /home/shreyas/ros2_projects/ros2_ws/install/srv_pkg/include/srv_pkg/srv_pkg/srv/set_robot_speed.h
+[18.273s] -- Installing: /home/shreyas/ros2_projects/ros2_ws/install/srv_pkg/share/srv_pkg/environment/library_path.sh
+[18.273s] -- Installing: /home/shreyas/ros2_projects/ros2_ws/install/srv_pkg/share/srv_pkg/environment/library_path.dsv
+[18.274s] -- Installing: /home/shreyas/ros2_projects/ros2_ws/install/srv_pkg/lib/libsrv_pkg__rosidl_generator_c.so
+[18.275s] -- Set non-toolchain portion of runtime path of "/home/shreyas/ros2_projects/ros2_ws/install/srv_pkg/lib/libsrv_pkg__rosidl_generator_c.so" to ""
+[18.275s] -- Up-to-date: /home/shreyas/ros2_projects/ros2_ws/install/srv_pkg/include/srv_pkg/srv_pkg
+[18.275s] -- Up-to-date: /home/shreyas/ros2_projects/ros2_ws/install/srv_pkg/include/srv_pkg/srv_pkg/msg
+[18.275s] -- Installing: /home/shreyas/ros2_projects/ros2_ws/install/srv_pkg/include/srv_pkg/srv_pkg/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[18.276s] -- Up-to-date: /home/shreyas/ros2_projects/ros2_ws/install/srv_pkg/include/srv_pkg/srv_pkg/srv
+[18.276s] -- Up-to-date: /home/shreyas/ros2_projects/ros2_ws/install/srv_pkg/include/srv_pkg/srv_pkg/srv/detail
+[18.276s] -- Installing: /home/shreyas/ros2_projects/ros2_ws/install/srv_pkg/include/srv_pkg/srv_pkg/srv/detail/set_robot_speed__rosidl_typesupport_fastrtps_c.h
+[18.276s] -- Installing: /home/shreyas/ros2_projects/ros2_ws/install/srv_pkg/lib/libsrv_pkg__rosidl_typesupport_fastrtps_c.so
+[18.277s] -- Set non-toolchain portion of runtime path of "/home/shreyas/ros2_projects/ros2_ws/install/srv_pkg/lib/libsrv_pkg__rosidl_typesupport_fastrtps_c.so" to ""
+[18.277s] -- Up-to-date: /home/shreyas/ros2_projects/ros2_ws/install/srv_pkg/include/srv_pkg/srv_pkg
+[18.277s] -- Up-to-date: /home/shreyas/ros2_projects/ros2_ws/install/srv_pkg/include/srv_pkg/srv_pkg/msg
+[18.277s] -- Installing: /home/shreyas/ros2_projects/ros2_ws/install/srv_pkg/include/srv_pkg/srv_pkg/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[18.278s] -- Up-to-date: /home/shreyas/ros2_projects/ros2_ws/install/srv_pkg/include/srv_pkg/srv_pkg/srv
+[18.278s] -- Up-to-date: /home/shreyas/ros2_projects/ros2_ws/install/srv_pkg/include/srv_pkg/srv_pkg/srv/detail
+[18.278s] -- Installing: /home/shreyas/ros2_projects/ros2_ws/install/srv_pkg/include/srv_pkg/srv_pkg/srv/detail/set_robot_speed__type_support.c
+[18.278s] -- Installing: /home/shreyas/ros2_projects/ros2_ws/install/srv_pkg/include/srv_pkg/srv_pkg/srv/detail/set_robot_speed__rosidl_typesupport_introspection_c.h
+[18.278s] -- Installing: /home/shreyas/ros2_projects/ros2_ws/install/srv_pkg/lib/libsrv_pkg__rosidl_typesupport_introspection_c.so
+[18.279s] -- Set non-toolchain portion of runtime path of "/home/shreyas/ros2_projects/ros2_ws/install/srv_pkg/lib/libsrv_pkg__rosidl_typesupport_introspection_c.so" to ""
+[18.279s] -- Installing: /home/shreyas/ros2_projects/ros2_ws/install/srv_pkg/lib/libsrv_pkg__rosidl_typesupport_c.so
+[18.279s] -- Set non-toolchain portion of runtime path of "/home/shreyas/ros2_projects/ros2_ws/install/srv_pkg/lib/libsrv_pkg__rosidl_typesupport_c.so" to ""
+[18.280s] -- Up-to-date: /home/shreyas/ros2_projects/ros2_ws/install/srv_pkg/include/srv_pkg/srv_pkg
+[18.280s] -- Up-to-date: /home/shreyas/ros2_projects/ros2_ws/install/srv_pkg/include/srv_pkg/srv_pkg/msg
+[18.280s] -- Installing: /home/shreyas/ros2_projects/ros2_ws/install/srv_pkg/include/srv_pkg/srv_pkg/msg/rosidl_generator_cpp__visibility_control.hpp
+[18.281s] -- Up-to-date: /home/shreyas/ros2_projects/ros2_ws/install/srv_pkg/include/srv_pkg/srv_pkg/srv
+[18.281s] -- Installing: /home/shreyas/ros2_projects/ros2_ws/install/srv_pkg/include/srv_pkg/srv_pkg/srv/set_robot_speed.hpp
+[18.281s] -- Up-to-date: /home/shreyas/ros2_projects/ros2_ws/install/srv_pkg/include/srv_pkg/srv_pkg/srv/detail
+[18.282s] -- Installing: /home/shreyas/ros2_projects/ros2_ws/install/srv_pkg/include/srv_pkg/srv_pkg/srv/detail/set_robot_speed__type_support.hpp
+[18.282s] -- Installing: /home/shreyas/ros2_projects/ros2_ws/install/srv_pkg/include/srv_pkg/srv_pkg/srv/detail/set_robot_speed__builder.hpp
+[18.282s] -- Installing: /home/shreyas/ros2_projects/ros2_ws/install/srv_pkg/include/srv_pkg/srv_pkg/srv/detail/set_robot_speed__traits.hpp
+[18.282s] -- Installing: /home/shreyas/ros2_projects/ros2_ws/install/srv_pkg/include/srv_pkg/srv_pkg/srv/detail/set_robot_speed__struct.hpp
+[18.283s] -- Up-to-date: /home/shreyas/ros2_projects/ros2_ws/install/srv_pkg/include/srv_pkg/srv_pkg
+[18.283s] -- Up-to-date: /home/shreyas/ros2_projects/ros2_ws/install/srv_pkg/include/srv_pkg/srv_pkg/msg
+[18.283s] -- Installing: /home/shreyas/ros2_projects/ros2_ws/install/srv_pkg/include/srv_pkg/srv_pkg/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[18.283s] -- Up-to-date: /home/shreyas/ros2_projects/ros2_ws/install/srv_pkg/include/srv_pkg/srv_pkg/srv
+[18.283s] -- Up-to-date: /home/shreyas/ros2_projects/ros2_ws/install/srv_pkg/include/srv_pkg/srv_pkg/srv/detail
+[18.284s] -- Installing: /home/shreyas/ros2_projects/ros2_ws/install/srv_pkg/include/srv_pkg/srv_pkg/srv/detail/dds_fastrtps
+[18.284s] -- Installing: /home/shreyas/ros2_projects/ros2_ws/install/srv_pkg/include/srv_pkg/srv_pkg/srv/detail/set_robot_speed__rosidl_typesupport_fastrtps_cpp.hpp
+[18.285s] -- Installing: /home/shreyas/ros2_projects/ros2_ws/install/srv_pkg/lib/libsrv_pkg__rosidl_typesupport_fastrtps_cpp.so
+[18.285s] -- Set non-toolchain portion of runtime path of "/home/shreyas/ros2_projects/ros2_ws/install/srv_pkg/lib/libsrv_pkg__rosidl_typesupport_fastrtps_cpp.so" to ""
+[18.286s] -- Up-to-date: /home/shreyas/ros2_projects/ros2_ws/install/srv_pkg/include/srv_pkg/srv_pkg
+[18.286s] -- Up-to-date: /home/shreyas/ros2_projects/ros2_ws/install/srv_pkg/include/srv_pkg/srv_pkg/srv
+[18.287s] -- Up-to-date: /home/shreyas/ros2_projects/ros2_ws/install/srv_pkg/include/srv_pkg/srv_pkg/srv/detail
+[18.287s] -- Installing: /home/shreyas/ros2_projects/ros2_ws/install/srv_pkg/include/srv_pkg/srv_pkg/srv/detail/set_robot_speed__rosidl_typesupport_introspection_cpp.hpp
+[18.288s] -- Installing: /home/shreyas/ros2_projects/ros2_ws/install/srv_pkg/include/srv_pkg/srv_pkg/srv/detail/set_robot_speed__type_support.cpp
+[18.288s] -- Installing: /home/shreyas/ros2_projects/ros2_ws/install/srv_pkg/lib/libsrv_pkg__rosidl_typesupport_introspection_cpp.so
+[18.289s] -- Set non-toolchain portion of runtime path of "/home/shreyas/ros2_projects/ros2_ws/install/srv_pkg/lib/libsrv_pkg__rosidl_typesupport_introspection_cpp.so" to ""
+[18.289s] -- Installing: /home/shreyas/ros2_projects/ros2_ws/install/srv_pkg/lib/libsrv_pkg__rosidl_typesupport_cpp.so
+[18.290s] -- Set non-toolchain portion of runtime path of "/home/shreyas/ros2_projects/ros2_ws/install/srv_pkg/lib/libsrv_pkg__rosidl_typesupport_cpp.so" to ""
+[18.290s] -- Installing: /home/shreyas/ros2_projects/ros2_ws/install/srv_pkg/share/srv_pkg/environment/pythonpath.sh
+[18.291s] -- Installing: /home/shreyas/ros2_projects/ros2_ws/install/srv_pkg/share/srv_pkg/environment/pythonpath.dsv
+[18.291s] -- Installing: /home/shreyas/ros2_projects/ros2_ws/install/srv_pkg/lib/python3.14/site-packages/srv_pkg/srv_pkg_s__rosidl_typesupport_fastrtps_c.so
+[18.292s] -- Set non-toolchain portion of runtime path of "/home/shreyas/ros2_projects/ros2_ws/install/srv_pkg/lib/python3.14/site-packages/srv_pkg/srv_pkg_s__rosidl_typesupport_fastrtps_c.so" to ""
+[18.292s] -- Installing: /home/shreyas/ros2_projects/ros2_ws/install/srv_pkg/lib/python3.14/site-packages/srv_pkg/srv_pkg_s__rosidl_typesupport_introspection_c.so
+[18.293s] -- Set non-toolchain portion of runtime path of "/home/shreyas/ros2_projects/ros2_ws/install/srv_pkg/lib/python3.14/site-packages/srv_pkg/srv_pkg_s__rosidl_typesupport_introspection_c.so" to ""
+[18.293s] -- Installing: /home/shreyas/ros2_projects/ros2_ws/install/srv_pkg/lib/python3.14/site-packages/srv_pkg/srv_pkg_s__rosidl_typesupport_c.so
+[18.294s] -- Set non-toolchain portion of runtime path of "/home/shreyas/ros2_projects/ros2_ws/install/srv_pkg/lib/python3.14/site-packages/srv_pkg/srv_pkg_s__rosidl_typesupport_c.so" to ""
+[18.295s] -- Installing: /home/shreyas/ros2_projects/ros2_ws/install/srv_pkg/lib/libsrv_pkg__rosidl_generator_py.so
+[18.295s] -- Set non-toolchain portion of runtime path of "/home/shreyas/ros2_projects/ros2_ws/install/srv_pkg/lib/libsrv_pkg__rosidl_generator_py.so" to ""
+[18.296s] -- Installing: /home/shreyas/ros2_projects/ros2_ws/install/srv_pkg/share/srv_pkg/rust
+[18.296s] -- Installing: /home/shreyas/ros2_projects/ros2_ws/install/srv_pkg/share/srv_pkg/rust/src
+[18.297s] -- Installing: /home/shreyas/ros2_projects/ros2_ws/install/srv_pkg/share/srv_pkg/rust/src/srv
+[18.297s] -- Installing: /home/shreyas/ros2_projects/ros2_ws/install/srv_pkg/share/srv_pkg/rust/src/srv/rmw.rs
+[18.298s] -- Installing: /home/shreyas/ros2_projects/ros2_ws/install/srv_pkg/share/srv_pkg/rust/src/srv.rs
+[18.298s] -- Installing: /home/shreyas/ros2_projects/ros2_ws/install/srv_pkg/share/srv_pkg/rust/src/lib.rs
+[18.299s] -- Installing: /home/shreyas/ros2_projects/ros2_ws/install/srv_pkg/share/srv_pkg/rust/Cargo.toml
+[18.299s] -- Installing: /home/shreyas/ros2_projects/ros2_ws/install/srv_pkg/share/srv_pkg/rust/build.rs
+[18.300s] -- Installing: /home/shreyas/ros2_projects/ros2_ws/install/srv_pkg/share/srv_pkg/srv/SetRobotSpeed.idl
+[18.300s] -- Installing: /home/shreyas/ros2_projects/ros2_ws/install/srv_pkg/share/srv_pkg/srv/SetRobotSpeed.srv
+[18.301s] -- Installing: /home/shreyas/ros2_projects/ros2_ws/install/srv_pkg/share/ament_index/resource_index/package_run_dependencies/srv_pkg
+[18.301s] -- Installing: /home/shreyas/ros2_projects/ros2_ws/install/srv_pkg/share/ament_index/resource_index/parent_prefix_path/srv_pkg
+[18.302s] -- Installing: /home/shreyas/ros2_projects/ros2_ws/install/srv_pkg/share/srv_pkg/environment/ament_prefix_path.sh
+[18.302s] -- Installing: /home/shreyas/ros2_projects/ros2_ws/install/srv_pkg/share/srv_pkg/environment/ament_prefix_path.dsv
+[18.303s] -- Installing: /home/shreyas/ros2_projects/ros2_ws/install/srv_pkg/share/srv_pkg/environment/path.sh
+[18.303s] -- Installing: /home/shreyas/ros2_projects/ros2_ws/install/srv_pkg/share/srv_pkg/environment/path.dsv
+[18.304s] -- Installing: /home/shreyas/ros2_projects/ros2_ws/install/srv_pkg/share/srv_pkg/local_setup.bash
+[18.304s] -- Installing: /home/shreyas/ros2_projects/ros2_ws/install/srv_pkg/share/srv_pkg/local_setup.fish
+[18.305s] -- Installing: /home/shreyas/ros2_projects/ros2_ws/install/srv_pkg/share/srv_pkg/local_setup.sh
+[18.305s] -- Installing: /home/shreyas/ros2_projects/ros2_ws/install/srv_pkg/share/srv_pkg/local_setup.zsh
+[18.306s] -- Installing: /home/shreyas/ros2_projects/ros2_ws/install/srv_pkg/share/srv_pkg/local_setup.dsv
+[18.306s] -- Installing: /home/shreyas/ros2_projects/ros2_ws/install/srv_pkg/share/srv_pkg/package.dsv
+[18.306s] -- Installing: /home/shreyas/ros2_projects/ros2_ws/install/srv_pkg/share/ament_index/resource_index/packages/srv_pkg
+[18.307s] -- Installing: /home/shreyas/ros2_projects/ros2_ws/install/srv_pkg/share/srv_pkg/cmake/export_srv_pkg__rosidl_generator_cExport.cmake
+[18.307s] -- Installing: /home/shreyas/ros2_projects/ros2_ws/install/srv_pkg/share/srv_pkg/cmake/export_srv_pkg__rosidl_generator_cExport-noconfig.cmake
+[18.308s] -- Installing: /home/shreyas/ros2_projects/ros2_ws/install/srv_pkg/share/srv_pkg/cmake/export_srv_pkg__rosidl_typesupport_fastrtps_cExport.cmake
+[18.308s] -- Installing: /home/shreyas/ros2_projects/ros2_ws/install/srv_pkg/share/srv_pkg/cmake/export_srv_pkg__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[18.308s] -- Installing: /home/shreyas/ros2_projects/ros2_ws/install/srv_pkg/share/srv_pkg/cmake/srv_pkg__rosidl_typesupport_introspection_cExport.cmake
+[18.309s] -- Installing: /home/shreyas/ros2_projects/ros2_ws/install/srv_pkg/share/srv_pkg/cmake/srv_pkg__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[18.309s] -- Installing: /home/shreyas/ros2_projects/ros2_ws/install/srv_pkg/share/srv_pkg/cmake/srv_pkg__rosidl_typesupport_cExport.cmake
+[18.309s] -- Installing: /home/shreyas/ros2_projects/ros2_ws/install/srv_pkg/share/srv_pkg/cmake/srv_pkg__rosidl_typesupport_cExport-noconfig.cmake
+[18.310s] -- Installing: /home/shreyas/ros2_projects/ros2_ws/install/srv_pkg/share/srv_pkg/cmake/export_srv_pkg__rosidl_generator_cppExport.cmake
+[18.310s] -- Installing: /home/shreyas/ros2_projects/ros2_ws/install/srv_pkg/share/srv_pkg/cmake/export_srv_pkg__rosidl_typesupport_fastrtps_cppExport.cmake
+[18.311s] -- Installing: /home/shreyas/ros2_projects/ros2_ws/install/srv_pkg/share/srv_pkg/cmake/export_srv_pkg__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[18.311s] -- Installing: /home/shreyas/ros2_projects/ros2_ws/install/srv_pkg/share/srv_pkg/cmake/srv_pkg__rosidl_typesupport_introspection_cppExport.cmake
+[18.311s] -- Installing: /home/shreyas/ros2_projects/ros2_ws/install/srv_pkg/share/srv_pkg/cmake/srv_pkg__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[18.312s] -- Installing: /home/shreyas/ros2_projects/ros2_ws/install/srv_pkg/share/srv_pkg/cmake/srv_pkg__rosidl_typesupport_cppExport.cmake
+[18.312s] -- Installing: /home/shreyas/ros2_projects/ros2_ws/install/srv_pkg/share/srv_pkg/cmake/srv_pkg__rosidl_typesupport_cppExport-noconfig.cmake
+[18.312s] -- Installing: /home/shreyas/ros2_projects/ros2_ws/install/srv_pkg/share/srv_pkg/cmake/export_srv_pkg__rosidl_generator_pyExport.cmake
+[18.313s] -- Installing: /home/shreyas/ros2_projects/ros2_ws/install/srv_pkg/share/srv_pkg/cmake/export_srv_pkg__rosidl_generator_pyExport-noconfig.cmake
+[18.313s] -- Installing: /home/shreyas/ros2_projects/ros2_ws/install/srv_pkg/lib/python3.14/site-packages/srv_pkg-0.0.0-py3.14.egg-info
+[18.313s] -- Installing: /home/shreyas/ros2_projects/ros2_ws/install/srv_pkg/lib/python3.14/site-packages/srv_pkg-0.0.0-py3.14.egg-info/dependency_links.txt
+[18.313s] -- Installing: /home/shreyas/ros2_projects/ros2_ws/install/srv_pkg/lib/python3.14/site-packages/srv_pkg-0.0.0-py3.14.egg-info/SOURCES.txt
+[18.314s] -- Installing: /home/shreyas/ros2_projects/ros2_ws/install/srv_pkg/lib/python3.14/site-packages/srv_pkg-0.0.0-py3.14.egg-info/PKG-INFO
+[18.314s] -- Installing: /home/shreyas/ros2_projects/ros2_ws/install/srv_pkg/lib/python3.14/site-packages/srv_pkg-0.0.0-py3.14.egg-info/top_level.txt
+[18.314s] -- Up-to-date: /home/shreyas/ros2_projects/ros2_ws/install/srv_pkg/lib/python3.14/site-packages/srv_pkg
+[18.315s] -- Installing: /home/shreyas/ros2_projects/ros2_ws/install/srv_pkg/lib/python3.14/site-packages/srv_pkg/_srv_pkg_s.ep.rosidl_typesupport_c.c
+[18.315s] -- Installing: /home/shreyas/ros2_projects/ros2_ws/install/srv_pkg/lib/python3.14/site-packages/srv_pkg/srv
+[18.315s] -- Installing: /home/shreyas/ros2_projects/ros2_ws/install/srv_pkg/lib/python3.14/site-packages/srv_pkg/srv/_set_robot_speed_s.c
+[18.315s] -- Installing: /home/shreyas/ros2_projects/ros2_ws/install/srv_pkg/lib/python3.14/site-packages/srv_pkg/srv/_set_robot_speed.py
+[18.316s] -- Installing: /home/shreyas/ros2_projects/ros2_ws/install/srv_pkg/lib/python3.14/site-packages/srv_pkg/srv/__init__.py
+[18.316s] -- Installing: /home/shreyas/ros2_projects/ros2_ws/install/srv_pkg/lib/python3.14/site-packages/srv_pkg/_srv_pkg_s.ep.rosidl_typesupport_fastrtps_c.c
+[18.316s] -- Installing: /home/shreyas/ros2_projects/ros2_ws/install/srv_pkg/lib/python3.14/site-packages/srv_pkg/_srv_pkg_s.ep.rosidl_typesupport_introspection_c.c
+[18.316s] -- Installing: /home/shreyas/ros2_projects/ros2_ws/install/srv_pkg/lib/python3.14/site-packages/srv_pkg/py.typed
+[18.317s] -- Up-to-date: /home/shreyas/ros2_projects/ros2_ws/install/srv_pkg/lib/python3.14/site-packages/srv_pkg/srv_pkg_s__rosidl_typesupport_fastrtps_c.so
+[18.317s] -- Up-to-date: /home/shreyas/ros2_projects/ros2_ws/install/srv_pkg/lib/python3.14/site-packages/srv_pkg/srv_pkg_s__rosidl_typesupport_introspection_c.so
+[18.317s] -- Up-to-date: /home/shreyas/ros2_projects/ros2_ws/install/srv_pkg/lib/python3.14/site-packages/srv_pkg/srv_pkg_s__rosidl_typesupport_c.so
+[18.318s] -- Installing: /home/shreyas/ros2_projects/ros2_ws/install/srv_pkg/lib/python3.14/site-packages/srv_pkg/__init__.py
+[18.418s] Listing '/home/shreyas/ros2_projects/ros2_ws/install/srv_pkg/lib/python3.14/site-packages/srv_pkg'...
+[18.418s] Compiling '/home/shreyas/ros2_projects/ros2_ws/install/srv_pkg/lib/python3.14/site-packages/srv_pkg/__init__.py'...
+[18.419s] Listing '/home/shreyas/ros2_projects/ros2_ws/install/srv_pkg/lib/python3.14/site-packages/srv_pkg/srv'...
+[18.419s] Compiling '/home/shreyas/ros2_projects/ros2_ws/install/srv_pkg/lib/python3.14/site-packages/srv_pkg/srv/__init__.py'...
+[18.420s] Compiling '/home/shreyas/ros2_projects/ros2_ws/install/srv_pkg/lib/python3.14/site-packages/srv_pkg/srv/_set_robot_speed.py'...
+[18.439s] -- Installing: /home/shreyas/ros2_projects/ros2_ws/install/srv_pkg/share/srv_pkg/cmake/rosidl_cmake-extras.cmake
+[18.439s] -- Installing: /home/shreyas/ros2_projects/ros2_ws/install/srv_pkg/share/srv_pkg/cmake/ament_cmake_export_dependencies-extras.cmake
+[18.440s] -- Installing: /home/shreyas/ros2_projects/ros2_ws/install/srv_pkg/share/srv_pkg/cmake/ament_cmake_export_include_directories-extras.cmake
+[18.440s] -- Installing: /home/shreyas/ros2_projects/ros2_ws/install/srv_pkg/share/srv_pkg/cmake/ament_cmake_export_libraries-extras.cmake
+[18.440s] -- Installing: /home/shreyas/ros2_projects/ros2_ws/install/srv_pkg/share/srv_pkg/cmake/ament_cmake_export_targets-extras.cmake
+[18.441s] -- Installing: /home/shreyas/ros2_projects/ros2_ws/install/srv_pkg/share/srv_pkg/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[18.441s] -- Installing: /home/shreyas/ros2_projects/ros2_ws/install/srv_pkg/share/srv_pkg/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[18.442s] -- Installing: /home/shreyas/ros2_projects/ros2_ws/install/srv_pkg/share/srv_pkg/cmake/rosidl_cmake_aggregate_target-extras.cmake
+[18.442s] -- Installing: /home/shreyas/ros2_projects/ros2_ws/install/srv_pkg/share/srv_pkg/cmake/srv_pkgConfig.cmake
+[18.442s] -- Installing: /home/shreyas/ros2_projects/ros2_ws/install/srv_pkg/share/srv_pkg/cmake/srv_pkgConfig-version.cmake
+[18.442s] -- Installing: /home/shreyas/ros2_projects/ros2_ws/install/srv_pkg/share/srv_pkg/package.xml
+[18.449s] Invoked command in '/home/shreyas/ros2_projects/ros2_ws/build/srv_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/shreyas/ros2_projects/ros2_ws/build/srv_pkg
