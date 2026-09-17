@@ -26,6 +26,10 @@ class RobotSpeedClient(Node):
 
         return future.result()
 
+    # # sync version
+    #     syncResponse = self.client.call(request)
+    #     return syncResponse
+
 def main(args=None):
     rclpy.init(args=args)
     node = RobotSpeedClient()
